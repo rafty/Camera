@@ -1,5 +1,5 @@
 if (!navigator.getUserMedia && !navigator.webkitGetUserMedia) {
-  alert('getUserMedia　非サポート');
+  alert('getUserMedia　notSupport');
 }
 
 function getMedia() {
@@ -15,4 +15,10 @@ function getMedia() {
       console.log(err);
     }
   );
+}
+
+window.onload = function() {
+    document.getElementById("accessCamera").addEventListener("click", function(event){
+        getMedia();
+    });    
 }
