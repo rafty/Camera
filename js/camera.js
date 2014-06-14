@@ -1,5 +1,5 @@
 if (!navigator.getUserMedia && !navigator.webkitGetUserMedia) {
-  alert('webkit系ブラウザでないか、もしくはgetUserMediaがサポートされていません');
+  alert('getUserMedia　非サポート');
 }
 
 function getMedia() {
@@ -11,7 +11,7 @@ function getMedia() {
       myVideo.play();
     },
     function(err) {
-      alert('カメラから映像を取得することができませんでした。');  
+      alert('getUserMedia Error');  
       console.log(err);
     }
   );
