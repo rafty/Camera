@@ -27,6 +27,12 @@ div#btnFrame {
 	width: 800px;
 }
 
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 button {
 		width: 150px;
 		height: 40px;
@@ -44,10 +50,14 @@ button {
     float: left;
 }
 
+#cameraView {
+   clear: both;
+}
+
 video {
+	border-style: dotted;
   margin-top: 20px;
   margin-left: 100px; 
-  clear: both;
 }
 
 div#back {

@@ -10,11 +10,13 @@
     <header>
       <h1>camera</h1>
     </header>
-    <div id="btnFrame" >
-      <button id ="accessCamera">Capture</button>
-      <button id ="stopCamera">Stop</button>
-      <button id ="snapshot">SnapShot</button>
+    <div id="btnFrame" class="clearfix">
+      <div><button id ="accessCamera">Capture</button></div>
+      <div><button id ="stopCamera">Stop</button></div>
+      <div><button id ="snapshot">SnapShot</button></div>
     </div>
-    <video id="myVideo"></video><br/>
+    <div id="cameraView">
+      <video id="myVideo"></video>
+    </div>
   </body>
 </html>
