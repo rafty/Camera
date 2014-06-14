@@ -24,10 +24,20 @@ header h1 {
 }
 
 button {
-  width: 200px;
-  height: 50px;
-  font-size: 1.2em;
-  margin: 10px;
+		font-size: 1em;
+		color: #ec10cc;
+    text-shadow: 0 1px 1px rgba(200,200,240,0.15);              
+    cursor: pointer;
+    padding: 6px 30px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    background: -webkit-linear-gradient(top, hsl(214, 8%, 28%) 0%, hsl(210, 8%, 20%) 100%);
+    background: -moz-linear-gradient(top, hsl(214, 8%, 28%) 0%, hsl(210, 8%, 20%) 100%);
+    text-shadow: 0 1px 1px rgba(200,200,240,0.15);              
+    -moz-box-shadow: inset 0px 2px 6px rgba(0,0,0,0.5), 0px 2px 5px rgba(220,255,255,0.15);
+    -webkit-box-shadow: inset 0px 2px 6px rgba(0,0,0,0.5), 0px 2px 5px rgba(220,255,255,0.15);
+    border-radius: 7px;
 }
 
 video {
